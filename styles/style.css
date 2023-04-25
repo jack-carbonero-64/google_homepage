@@ -37,6 +37,50 @@ a:active {
     text-decoration: underline;
 }
 
+/* Header */
+
+header {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    margin: 5px;
+}
+
+nav > * {
+    margin: 7px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.menuButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.menuButtons:hover,
+.menuButtons:active {
+    background: #f0f0f0;
+}
+
+#appsIcon {
+    fill: currentColor;
+    color: #5f6368;
+}
+
+#userAvatar {
+    border-radius: 50%;
+}
+
 /* Content */
 
 #searchSection {
