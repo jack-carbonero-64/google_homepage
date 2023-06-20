@@ -28,6 +28,15 @@ html {
     height: 100%;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    text-decoration: underline;
+}
+
 /* Content */
 
 #searchSection {
@@ -36,4 +45,49 @@ html {
     align-items: center;
     justify-content: center;
     flex: 1;
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+
+    background: #f2f2f2;
+    color: #70757a;
+}
+
+footer a {
+    color: inherit;
+}
+
+#country {
+    font-size: 15px;
+    padding: 15px 30px;
+
+    border-bottom: 1px solid #dadce0;
+}
+
+#googleInfos {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 0 15px;
+}
+
+.googleInfosSections {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.googleInfosSections a {
+    padding: 15px;
+}
+
+#leafImage {
+    height: 14px;
+    margin-right: 2px;
+}
+
+#leafText {
+    vertical-align: top;
 }
